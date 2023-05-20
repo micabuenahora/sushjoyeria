@@ -1,0 +1,354 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #ab5fde;
+ font-size: 20px;
+}
+
+body{
+  background-color: #fce1e1;
+}
+
+/*logo header*/
+
+.logo {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+/*links generales*/
+a {
+  text-decoration: none;
+}
+
+
+/*header*/
+.header{
+  background-color: #5dc7f5;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header nav{
+  width: 100%;
+}
+
+header nav ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.header nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+ 
+.header nav ul li a{
+  background-color: #ab5fde; /*ojotaaaaaaaaaaa cambiaste de aca paabajo*/
+  border-radius: 20px;
+  color: #fce1e1; 
+  font-size: 20px;
+  padding: 10px;
+}
+
+.main{
+  height: 60vh;
+}   
+
+/*imagenes productos.html*/
+.contenedor-img {
+  display: inline-block;
+  width: 25%;
+  height: 25%;
+  
+}
+
+/*encabezado index*/
+.encabezado-index {
+  display: inline-block;
+  text-align: center;
+  color: #ab5fde;
+}
+
+/*menu de navegacion index*/
+.menu-index {
+  display: inline-block;
+  color: #fdf4f4;
+  background-color: #ab5fde;
+  border-radius: 10px;
+  color: #fce1e1; 
+}
+
+/*menu de navegacion nuevo!*/
+.menu-nuevo {
+  display: inline-block;
+  color: #fdf4f4;
+ 
+}
+
+/*menu de navegacion productos*/
+.menu-productos {
+  display: inline-block;
+  color: #fdf4f4;
+  
+}
+
+/*menu de navegacion contacto!*/
+.menu-contacto {
+  display: inline-block;
+  color: #fdf4f4;
+
+}
+
+/*menu de navegacion nosotros*/
+.menu-nosotros {
+  display: inline-block;
+  color: #fdf4f4;
+  
+}
+
+
+
+/*footer*/
+.footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: #5dc7f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*derechos footer*/
+.derechos-footer {
+  display: inline-block;
+}
+
+/*link instagram footer*/
+.instagram_footer {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+
+  
+  
+}
+ 
+ footer div a img{
+  color: #fce1e1!important;
+}
+
+/*link twitter footer*/
+.twitter_footer {
+  display: inline-block;
+  color: #ab5fde;
+  width: 50px;
+  height: 50px;
+}
+
+/*logo footer*/
+.logo-footer {
+  
+  width: 100px;
+  height: 100px;
+ 
+}
+.encabezado-principal{
+  margin-top: 5vh;
+  display: flex;
+justify-content: space-around;
+}
+
+.cards-index{
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/*img index anillolaurel*/
+.img-index1 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border:  solid #ab5fde;
+}
+
+/*img index cadenita diamantes*/
+.img-index2 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: solid #ab5fde;
+}
+
+/*img index aros estrellas*/
+.img-index3 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: solid #ab5fde;
+}
+
+/*contendores de img*/
+.contenedor-card{
+  box-shadow: 0px 0px 10px 0px  #ab5fde;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* contenedor texto img*/
+.contenedor-card p{
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  color: #fdf4f4;
+  background-color: #ab5fde;
+}
+
+/* nombre y img de prod nuevo1*/
+.nombres-productos1 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+ }
+/* nombre de prod nuevo2*/
+.nombres-productos2 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+/* nombre de prod nuevo3*/
+.nombres-productos3 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}  
+/* nombre de prod nuevo4*/
+.nombres-productos4 {
+  width: 200px;
+  height: 200px;
+  display:inline-block;
+}
+/* nombre de prod nuevo5*/
+.nombres-productos5 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+ 
+}
+/* nombre de prod nuevo6*/
+.nombres-productos6 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+
+/*img producto.html*/
+.cajas-productos{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: solid #ab5fde;
+  box-shadow: 0px 0px 10px 0px  #ab5fde;
+  align-items: center;
+  margin: 15px 15px 15px 15px;
+}
+
+
+/*contendeor main productos.html*/
+.main-productos {
+  display: inline-block;
+  width: 100vw;
+  height: 990px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+.main-productos .cajas-productos img{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: solid #ab5fde;
+}
+
+/*contenedor-formulario*/
+.section-contacto{
+  width: 40vh;
+  height: 49vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/*formulario contacto.html*/
+main section form label{
+  width: 40vw;
+  height: 49vh;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+}
+
+main section form input{
+  width: 40vw;
+  height: 40px;
+  background-color: #ab5fde34;
+  padding: 10px;
+  outline: none;
+  border: solid #ab5fde;
+  margin-bottom: 10px;
+  
+}
+/*boton formulario*/
+.contacto-botonsubmit{
+  width: 15vh;
+  
+}
+/*container main nosotros*/
+.container-article{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/*cajas main nosotros*/
+.container-article article{
+  width: 50vw;
+  height: 33vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/*textos nosotros*/
+.container-article article p{
+  font-size: larger;
+}
+/*imagenes nosotros*/
+.container-article article img{
+  width: 30vw;
+  height: 33vh;
+}
+
