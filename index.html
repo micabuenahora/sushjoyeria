@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,39 +47,52 @@
 
     </header>
 
-    <!--main index-->
-    <main class="main">
+    <main>
         <!--encabezado index-->
         <div class="encabezado-principal">
-            <h1 class="encabezado-index"><a href="./pages/nuevo.html">NUEVA COLECCION
+            <h1><a href="./pages/nuevo.html" class="encabezado-index">NUEVA COLECCION
                     DISPONIBLE YA!</a></h1>
         </div>
-
-        <section class="cards-index">
-            <!--imagenes del main-->
-            <div class="contenedor-card">
-                <img alt="anilo forma laurel" src="./assets/img/anillo_laurel.jpg" class="img-index1">
-                <p>anillo olimpo
-                    $1500
-                </p>
+        <!--carousel bs-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
             </div>
-
-
-            <div class="contenedor-card">
-                <img alt="cadenita forma diamante" src="./assets/img/cadenitas_diamantes.jpg" class="img-index2">
-                <p> collar bright
-                    $1500
-                </p>
+            <div class="carousel-inner my-5">
+                <div class="carousel-item active">
+                    <img src="./assets/img/butterfly-index.jpeg" class="d-block w-100" alt="nueva coleccion butterfly">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/fotosindex1.jpeg" class="d-block w-100" alt="fotos de la coleccion">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/fotos-index2.jpeg" class="d-block w-100" alt="fotos de la coleccion">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/buterfly-indexultimo.jpeg" class="d-block w-100"
+                        alt="foto no te lo podes perder">
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
 
-            <div class="contenedor-card">
-                <img alt="aros forma estrella" src="./assets/img/aros_estrellas.jpg" class="img-index3">
-                <p>aros stars
-                    $1500
-                </p>
-            </div>
-        </section>
     </main>
 
     <!--footer index-->
@@ -100,7 +114,7 @@
                     class="twitter_footer"></a>
         </div>
     </footer>
-<!--script-->
+    <!--script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
