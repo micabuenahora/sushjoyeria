@@ -5,6 +5,7 @@
   font-family: "Lato", sans-serif;
   color: #ab5fde;
   font-size: 20px;
+
 }
 
 body {
@@ -27,7 +28,7 @@ a {
 /*header*/
 .header {
   background-color: #5dc7f5;
-  width: 100vw;
+  width: 100%;
   height: 20vh;
   display: flex;
   align-items: center;
@@ -52,16 +53,18 @@ header nav ul {
 }
 
 .header nav ul li a {
-  background-color: #ab5fde; /*ojotaaaaaaaaaaa cambiaste de aca paabajo*/
+  background-color: #ab5fde; 
   border-radius: 20px;
   color: #fce1e1;
   font-size: 20px;
   padding: 10px;
+
+}
+/*pseudoclases*/
+.header nav ul li a:hover{
+  color: #511877;
 }
 
-.main {
-  height: 60vh;
-}
 /*titulo productos*/
 .titulo-productos{
   font-family: 'Gravitas One', cursive;
@@ -168,6 +171,7 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
  
@@ -186,9 +190,6 @@ header nav ul {
   height: 50px;
 }
 
-footer div a img {
-  color: #fce1e1 !important;
-}
 
 /*link twitter footer*/
 .twitter_footer {
@@ -203,61 +204,12 @@ footer div a img {
   width: 100px;
   height: 100px;
 }
+/*caja encabezado index*/
 .encabezado-principal {
   margin-top: 5vh;
   display: flex;
   justify-content: space-around;
 }
-
-.cards-index {
-  margin-top: 5vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-/*img index anillolaurel*/
-.img-index1 {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  border: solid #ab5fde;
-}
-
-/*img index cadenita diamantes*/
-.img-index2 {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  border: solid #ab5fde;
-}
-
-/*img index aros estrellas*/
-.img-index3 {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  border: solid #ab5fde;
-}
-
-/*contendores de img*/
-.contenedor-card {
-  box-shadow: 0px 0px 10px 0px #ab5fde;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* contenedor texto img*/
-.contenedor-card p {
-  width: 100%;
-  text-align: center;
-  font-size: 22px;
-  color: #fdf4f4;
-  background-color: #ab5fde;
-}
-
 
 /*titulo nosotros*/
 .titulo-nosotros {
@@ -330,9 +282,7 @@ main section form input {
 }
 /*boton formulario*/
 .contacto-botonsubmit {
-  width: 20%;
-  justify-content: center;
-  text-align: center !important;
+  width: 15%;
 }
 
 /*lista contacto*/
@@ -366,4 +316,66 @@ main section form input {
   justify-content: center;
   text-align: center;
   color: #ab5fde;
+}
+/*carousel index*/
+.carousel-index{
+display:flex;
+justify-content: center;
+}
+
+/*paginas responsive mobile nosotros.html nuevo.html*/
+@media screen and (max-width:480px){
+ .footer{
+  min-width: 100%;
+  flex-direction: row;
+  
+ }
+ .header{
+  min-width:100%;
+ 
+ }
+ .header nav ul li a{
+  border-radius: 10px;
+  color: #fce1e1;
+  font-size: 10px;
+  padding: 10px;
+ }
+ .logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+ }
+
+  /*lista contacto*/
+.row .lista-contacto ul li{
+  display: flex;
+  justify-content: flex-start;
+}
+
+ }
+
+
+ 
+/*paginas responsive tablet contacto nuevo.html*/
+@media screen and (max-width:769px){
+  .footer{
+    min-width: 100%;
+    flex-direction: row;
+    
+   }
+   .header{
+    min-width:100%;
+    
+   }
+   .header nav ul li a{
+    border-radius: 10px;
+    color: #fce1e1;
+    font-size: 10px;
+    padding: 10px;
+   }
+   .logo {
+    width: 50px;
+    height: 50px;
+   }
+
 }
