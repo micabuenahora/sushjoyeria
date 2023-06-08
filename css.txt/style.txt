@@ -5,6 +5,7 @@
   font-family: "Lato", sans-serif;
   color: #ab5fde;
   font-size: 20px;
+  
 }
 
 body {
@@ -61,9 +62,14 @@ header nav ul {
 
 /*pseudoclases*/
 .header nav ul li a:hover {
-  color: #511877;
+  color:#fce1e1;
+  background-color: #511877;
 }
-
+ /*pseudoclase submit .card*/
+ .submit-cards:hover{
+  color: #fce1e1;
+  background-color: #511877;
+ }
 /*titulo productos*/
 .titulo-productos {
   font-family: "Gravitas One", cursive;
@@ -75,46 +81,61 @@ header nav ul {
   color: #ab5fde;
 }
 
-/*container card productos bs*/
-.card-body {
-  height: 5px;
-}
-/*col card productos bs*/
-.col {
+
+/* card productos bs*/
+.card {
   margin: 20px;
   margin-bottom: 60px;
-  margin-left: 30px;
   margin-right: 30px;
+ 
 }
 /*caja card productos bs*/
-.col .card {
+section .card {
   width: 100%;
   height: 100%;
   margin: 40px;
+  margin-bottom: 60px;
+  margin-right: 30px;
+  margin-left: 120px;
+  justify-content: center;
+  align-items: center;
   background-color: #ab5fde65;
   color: #fce1e1;
   border-radius: 50px;
+ 
 }
 
 /*imagenes productos.html*/
-.col .card img {
-  height: 50%;
+.card .card-img-top {
+  height: 300px;
+  width: 357px;
   border-radius: 50px;
 }
 
 /*texto cards productos bs */
 .card-text {
   color: #fce1e1;
+  margin-left: 40%;
 }
-
+ /*titulo cards*/
+ .card-title{
+display: flex;
+justify-content: center;
+ }
 /*submit cards productos bs*/
-.submit-cards {
+.submit-cards{
   background-color: #ab5fde;
   color: #fce1e1;
   border-radius: 50px;
-  border: #511877;
+  
 }
-
+/*submit cards nuevo.html*/
+.submit-cards2{
+  background-color: #ab5fde;
+  color: #fce1e1;
+  border-radius: 50px;
+  margin-left: 22%;
+}
 /*encabezado index*/
 .encabezado-index {
   font-family: "Gravitas One", cursive;
@@ -279,15 +300,16 @@ main section form input {
 }
 
 /*cards nuevo*/
-.col2 .card img {
+ .card img {
   height: 50%;
   border-radius: 50px;
 }
 /*caja de las imagenes*/
-.cold2 .card {
+ .card {
   width: 100%;
   height: 50%;
   margin: 40px;
+  margin-left: 120px;
   background-color: #ab5fde65;
   color: #fce1e1;
   border-radius: 50px;
