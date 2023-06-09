@@ -1,0 +1,51 @@
+  /*menu de navegacion productos*/
+  .menu-productos {
+    display: inline-block;
+    color: #fdf4f4;
+  }
+
+/*titulo productos*/
+ .titulo-productos {
+    font-family: "Gravitas One", cursive;
+    font-size: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ab5fde;
+  }
+  
+
+  /*caja card productos bs*/
+   .card {
+    width: 100%;
+    height: 100%;
+    background-color: #ab5fde65;
+    color: #fce1e1;
+    border-radius: 50px;
+  }
+  
+  /*imagenes productos.html*/
+  .card .card-img-top {
+    height: 300px;
+    width: 100%;
+    border-radius: 50px;
+  }
+  
+  /*texto cards productos bs */
+  .card-text {
+    color: #fce1e1;
+    margin-left: 40%;
+  }
+   /*titulo cards*/
+   .card-title{
+  display: flex;
+  justify-content: center;
+   }
+  /*submit cards productos bs*/
+  .submit-cards{
+    background-color: #ab5fde;
+    color: #fce1e1;
+    border-radius: 50px;
+    
+  }

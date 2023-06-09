@@ -1,73 +1,82 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  color: #ab5fde;
-  font-size: 20px;
-}
-
-body {
-  background-color: #fce1e1;
-}
-
-/*logo header*/
-.logo {
+/*menu de navegacion index*/
+.menu-index {
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  color: #fdf4f4;
+  background-color: #ab5fde;
+  border-radius: 10px;
+  color: #fce1e1;
 }
 
-/*links generales*/
-a {
-  text-decoration: none;
+/*encabezado index*/
+.encabezado-index {
+  font-family: "Gravitas One", cursive;
+  font-size: 40px;
+  display: inline-block;
+  text-align: center;
+  color: #ab5fde;
 }
 
-/*header*/
-.header {
-  background-color: #5dc7f5;
-  width: 100%;
-  height: 20vh;
+/*caja encabezado index*/
+.encabezado-principal {
+  margin-top: 5vh;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 
-.header nav {
-  width: 100%;
-}
-
-header nav ul {
-  width: 100%;
+/*carousel index*/
+.carousel-index {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.header nav ul li {
-  list-style: none;
+/*menu de navegacion nuevo!*/
+.menu-nuevo {
   display: inline-block;
-  margin-right: 20px;
+  color: #fdf4f4;
 }
 
-.header nav ul li a {
+/*contenedor nuevo*/
+.contendedor-cardsnuevo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*cards*/
+.card {
+  width: 300px;
+  height: 50%;
+  margin: 40px;
+  margin-left: 120px;
+  background-color: rgba(171, 95, 222, 0.3960784314);
+  color: #fce1e1;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/*titulo nuevo!.html*/
+.titulo-nuevo {
+  font-family: "Gravitas One", cursive;
+  font-size: 40px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ab5fde;
+}
+
+/*submit cards nuevo.html*/
+.submit-cards2 {
   background-color: #ab5fde;
-  border-radius: 20px;
   color: #fce1e1;
-  font-size: 20px;
-  padding: 10px;
+  border-radius: 50px;
+  margin-left: 15%;
 }
 
-/*pseudoclases*/
-.header nav ul li a:hover {
-  color: #fce1e1;
-  background-color: #511877;
-}
-
-/*pseudoclase submit .card*/
-.submit-cards:hover {
-  color: #fce1e1;
-  background-color: #511877;
+/*menu de navegacion productos*/
+.menu-productos {
+  display: inline-block;
+  color: #fdf4f4;
 }
 
 /*titulo productos*/
@@ -81,26 +90,10 @@ header nav ul {
   color: #ab5fde;
 }
 
-/*col card productos bs*/
-.card {
-  margin: 20px;
-  margin-bottom: 60px;
-  margin-left: 30px;
-  margin-right: 30px;
-  height: 10%;
-  background-color: rgba(171, 95, 222, 0.3960784314);
-  color: #fce1e1;
-  border-radius: 50px;
-}
-
 /*caja card productos bs*/
-section .card {
+.card {
   width: 100%;
   height: 100%;
-  margin: 40px;
-  margin-left: 120px;
-  justify-content: center;
-  align-items: center;
   background-color: rgba(171, 95, 222, 0.3960784314);
   color: #fce1e1;
   border-radius: 50px;
@@ -109,7 +102,7 @@ section .card {
 /*imagenes productos.html*/
 .card .card-img-top {
   height: 300px;
-  width: 357px;
+  width: 100%;
   border-radius: 50px;
 }
 
@@ -132,132 +125,10 @@ section .card {
   border-radius: 50px;
 }
 
-/*submit cards nuevo.html*/
-.submit-cards2 {
-  background-color: #ab5fde;
-  color: #fce1e1;
-  border-radius: 50px;
-  margin-left: 22%;
-}
-
-/*encabezado index*/
-.encabezado-index {
-  font-family: "Gravitas One", cursive;
-  font-size: 40px;
-  display: inline-block;
-  text-align: center;
-  color: #ab5fde;
-}
-
-/*menu de navegacion index*/
-.menu-index {
-  display: inline-block;
-  color: #fdf4f4;
-  background-color: #ab5fde;
-  border-radius: 10px;
-  color: #fce1e1;
-}
-
-/*menu de navegacion nuevo!*/
-.menu-nuevo {
-  display: inline-block;
-  color: #fdf4f4;
-}
-
-/*menu de navegacion productos*/
-.menu-productos {
-  display: inline-block;
-  color: #fdf4f4;
-}
-
 /*menu de navegacion contacto!*/
 .menu-contacto {
   display: inline-block;
   color: #fdf4f4;
-}
-
-/*menu de navegacion nosotros*/
-.menu-nosotros {
-  display: inline-block;
-  color: #fdf4f4;
-}
-
-/*footer*/
-.footer {
-  width: 100vw;
-  height: 15vh;
-  background-color: #5dc7f5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*derechos footer*/
-.derechos-footer {
-  display: inline-block;
-}
-
-/*link instagram footer*/
-.instagram_footer {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-}
-
-/*link twitter footer*/
-.twitter_footer {
-  display: inline-block;
-  color: #ab5fde;
-  width: 50px;
-  height: 50px;
-}
-
-/*logo footer*/
-.logo-footer {
-  width: 100px;
-  height: 100px;
-}
-
-/*caja encabezado index*/
-.encabezado-principal {
-  margin-top: 5vh;
-  display: flex;
-  justify-content: space-around;
-}
-
-/*titulo nosotros*/
-.titulo-nosotros {
-  font-family: "Gravitas One", cursive;
-  color: #ab5fde;
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
-/*main nosotros grid bs*/
-.col1 img {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  border-radius: 50px;
-}
-
-/*columnas nosotros grid bs*/
-.col1 {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #fce1e1;
-  align-items: center;
-}
-
-/*textos nosotros grid bs*/
-.col1 p {
-  background-color: #ab5fde;
-  color: #fce1e1;
-  border-radius: 50px;
-  padding: 10px;
-  border-color: #511877 10px;
 }
 
 /*contenedor-formulario*/
@@ -310,46 +181,173 @@ main section form input {
   list-style: none;
 }
 
-/*cards nuevo*/
-.card img {
-  height: 50%;
+/*menu de navegacion nosotros*/
+.menu-nosotros {
+  display: inline-block;
+  color: #fdf4f4;
+}
+
+/*titulo nosotros*/
+.titulo-nosotros {
+  font-family: "Gravitas One", cursive;
+  color: #ab5fde;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+/*main nosotros grid bs*/
+.col1 img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
   border-radius: 50px;
 }
 
-/*caja de las imagenes*/
-.card {
-  width: 100%;
-  height: 50%;
-  margin: 40px;
-  margin-left: 120px;
-  background-color: rgba(171, 95, 222, 0.3960784314);
+/*columnas nosotros grid bs*/
+.col1 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fce1e1;
+  align-items: center;
+}
+
+/*textos nosotros grid bs*/
+.col1 p {
+  background-color: #ab5fde;
   color: #fce1e1;
   border-radius: 50px;
+  padding: 10px;
+  border-color: #511877 10px;
 }
 
-/*titulo nuevo!.html*/
-.titulo-nuevo {
-  font-family: "Gravitas One", cursive;
-  font-size: 40px;
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
   color: #ab5fde;
+  font-size: 20px;
 }
 
-/*carousel index*/
-.carousel-index {
+body {
+  background-color: #fce1e1;
+}
+
+/*links generales*/
+a {
+  text-decoration: none;
+}
+
+/*logo header*/
+.logo {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+/*header*/
+.header {
+  background-color: #5dc7f5;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header nav {
+  width: 100%;
+}
+
+header nav ul {
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-/*paginas responsive mobile nosotros.html nuevo.html*/
-@media screen and (max-width: 480px) {
+.header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header nav ul li a {
+  background-color: #ab5fde;
+  border-radius: 20px;
+  color: #fce1e1;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/*footer*/
+.footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: #5dc7f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*derechos footer*/
+.derechos-footer {
+  display: inline-block;
+}
+
+/*link instagram footer*/
+.instagram_footer {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+/*link twitter footer*/
+.twitter_footer {
+  display: inline-block;
+  color: #ab5fde;
+  width: 50px;
+  height: 50px;
+}
+
+/*logo footer*/
+.logo-footer {
+  width: 100px;
+  height: 100px;
+}
+
+/*links*/
+.header nav ul li a:hover {
+  color: #fce1e1;
+  background-color: #511877;
+}
+
+/*submit cards productos*/
+.submit-cards:hover {
+  color: #fce1e1;
+  background-color: #511877;
+}
+
+/*submit cards nuevo*/
+.submit-cards2:hover {
+  color: #fce1e1;
+  background-color: #511877;
+}
+
+@media screen and (max-width: 700px) {
   .footer {
     min-width: 100%;
-    flex-direction: row;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%;
   }
+  .derechos-footer {
+    font-size: 10px;
+  }
+  /*header*/
   .header {
     min-width: 100%;
   }
@@ -363,34 +361,11 @@ main section form input {
     display: inline-block;
     width: 50px;
     height: 50px;
+    margin: 20px;
   }
   /*lista contacto*/
   .row .lista-contacto ul li {
     display: flex;
     justify-content: flex-start;
-  }
-  .card {
-    width: 20%;
-    height: 20%;
-  }
-}
-/*paginas responsive tablet contacto nuevo.html*/
-@media screen and (max-width: 769px) {
-  .footer {
-    min-width: 100%;
-    flex-direction: row;
-  }
-  .header {
-    min-width: 100%;
-  }
-  .header nav ul li a {
-    border-radius: 10px;
-    color: #fce1e1;
-    font-size: 10px;
-    padding: 10px;
-  }
-  .logo {
-    width: 50px;
-    height: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

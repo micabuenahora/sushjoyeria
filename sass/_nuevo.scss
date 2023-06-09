@@ -1,0 +1,44 @@
+ /*menu de navegacion nuevo!*/
+ .menu-nuevo {
+    display: inline-block;
+    color: #fdf4f4;
+}
+
+/*contenedor nuevo*/
+.contendedor-cardsnuevo{
+  display: flex;
+  flex-wrap: wrap;
+}
+  /*cards*/
+  .card {
+    width: 300px;
+    height: 50%;
+    margin: 40px;
+    margin-left: 120px;
+    background-color: #ab5fde65;
+    color: #fce1e1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*titulo nuevo!.html*/
+  .titulo-nuevo {
+    font-family: "Gravitas One", cursive;
+    font-size: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ab5fde;
+  }
+
+  /*submit cards nuevo.html*/
+  .submit-cards2{
+    background-color: #ab5fde;
+    color: #fce1e1;
+    border-radius: 50px;
+    margin-left: 15%;
+  }
+
+  
